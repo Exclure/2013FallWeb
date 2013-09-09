@@ -10,12 +10,12 @@
   <body>
     <h1>This is the final</h1>
 
-	<?php
-	$msg = 'Hello World';
-	$name = 'Lynton'; 
-	echo $msg;
+	<?
+		$msg = 'Hello';
+		$name = 'Lynton'; 
+		
 	?>
-	
+	<span class="Label label-success"><?= $msg . $name ?></span>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
   </body>
