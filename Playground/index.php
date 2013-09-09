@@ -1,38 +1,91 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Playground</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-    <style>
-    	div { background-color: #AACCCC; }
-    </style>
-  </head>
-  <body>
-    <h1>Hello this is the Playground</h1>
-    <div class="container">
-	    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+	<head>
+		<title>Playground</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse" role="navigation">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Playground</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="index.php">Home</a>
+					</li>
+					<li class="active">
+						<a href="contact.php">contact</a>
+					</li>
+					<li>
+						<a href="links.php">Links</a>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">Action</a>
+							</li>
+							<li>
+								<a href="#">Another action</a>
+							</li>
+							<li>
+								<a href="#">Something else here</a>
+							</li>
+							<li>
+								<a href="#">Separated link</a>
+							</li>
+							<li>
+								<a href="#">One more separated link</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<p class="navbar-text pull-right">
+					Signed in as <a href="#" class="navbar-link">Lynton Merriwether</a>
+				</p>
+			</div><!-- /.navbar-collapse -->
+		</nav>
+		<div class="container">
+			<div class="jumbotron">
+				<h1>Hello World!</h1>
+				<p>
+					Welcome class of 2013 to Web Server Programming
+				</p>
+				<a class="btn btn-lg btn-success">Learn More</a>
+
+			</div>
 		<div class="row">
-		  <div class="col-xs-12 col-md-8">.col-xs-12 col-md-8</div>
-		  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+		  <div class="col-xs-6 col-md-4">
+		  	<h2>Heading</h2>
+		  	<p><a class="btn btn-primary" href="#">View details »</a></p>
+		  </div>
+		  <div class="col-xs-6 col-md-4">
+		  	<h2>Importent Stuff</h2>
+		  	<p><a class="btn btn-primary" href="#">View details »</a></p>
+			</div>
+		  <div class="col-xs-6 col-md-4">
+		  	<h2>Heading</h2>
+		  	<p><a class="btn btn-primary" href="#">View details »</a></p>
+		  	</div>
 		</div>
-		
-		<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-		<div class="row">
-		  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-		  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-		  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-		</div>
-		
+
 		<!-- Columns are always 50% wide, on mobile and desktop -->
-		<div class="row">
-		  <div class="col-xs-6">.col-xs-6</div>
-		  <div class="col-xs-6">.col-xs-6</div>
-		</div>
+		
 	</div>
-	
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-  </body>
+		</div>
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	</body>
 </html>
