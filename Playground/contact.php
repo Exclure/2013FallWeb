@@ -22,14 +22,14 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
-					<li class="active">
+					<li>
 						<a href="index.php">Home</a>
 					</li>
-					<li>
-						<a href="Contact.php">Contact</a>
+					<li class="active">
+						<a href="contact.php">Contact</a>
 					</li>
 					<li>
-						<a href="#">Links</a>
+						<a href="links.php">Links</a>
 					</li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
@@ -61,7 +61,7 @@
 			<div class="jumbotron">
 				<h1>Hello World!</h1>
 				<p>
-					Welcome class of 2013 to Web Server Programing
+					Welcome class of 2013 to Web Server Programming
 				</p>
 				<a class="btn btn-lg btn-success">Learn More</a>
 

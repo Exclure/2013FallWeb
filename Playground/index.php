@@ -22,10 +22,10 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
-					<li>
+					<li class="active">
 						<a href="index.php">Home</a>
 					</li>
-					<li class="active">
+					<li>
 						<a href="contact.php">contact</a>
 					</li>
 					<li>
