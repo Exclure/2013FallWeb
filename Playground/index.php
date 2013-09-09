@@ -6,7 +6,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
     <style>
-    	div { background-color: AACCCC; }
+    	div { background-color: #AACCCC; }
     </style>
   </head>
   <body>
