@@ -9,6 +9,7 @@
 	<body>
 		<nav class="navbar navbar-inverse" role="navigation">
 			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
 					<span class="sr-only">Toggle navigation</span>
@@ -26,7 +27,7 @@
 						<a href="index.php">Home</a>
 					</li>
 					<li>
-						<a href="contact.php">contact</a>
+						<a href="contact.php">Contact</a>
 					</li>
 					<li>
 						<a href="links.php">Links</a>
@@ -56,6 +57,7 @@
 					Signed in as <a href="#" class="navbar-link">Lynton Merriwether</a>
 				</p>
 			</div><!-- /.navbar-collapse -->
+		</div>
 		</nav>
 		<div class="container">
 			<div class="jumbotron">
@@ -72,11 +74,12 @@
 		  	<p><a class="btn btn-primary" href="#">View details »</a></p>
 		  </div>
 		  <div class="col-xs-6 col-md-4">
-		  	<h2>Importent Stuff</h2>
-		  	<p><a class="btn btn-primary" href="#">View details »</a></p>
+		  	<h2>Important Stuff</h2>
+		  	<p>Check out the August issue of Ludique Magazine The Mobile Photography Magazine</p><p><a class="btn btn-primary" href="http://ludiquemag.com/august2013.html">Check It Out »</a></p>
 			</div>
 		  <div class="col-xs-6 col-md-4">
 		  	<h2>Heading</h2>
+		  	<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
 		  	<p><a class="btn btn-primary" href="#">View details »</a></p>
 		  	</div>
 		</div>
