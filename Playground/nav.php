@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="container">
 				<div class="navbar-header">
@@ -14,14 +14,19 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse navbar-ex1-collapse">
 					<ul class="nav navbar-nav">
-						<li class="active">
+						</li>
+						<li <? if($location == 'home')echo'class="active"' ?>>
 							<a href="index.php">Home</a>
 						</li>
-						<li>
+						<li <? if($location == 'contact')echo'class="active"' ?>>
 							<a href="contact.php">Contact</a>
 						</li>
-						<li>
+						<li <? if($location == 'links')echo'class="active"' ?>>
 							<a href="links.php">Links</a>
+						</li>
+						<li <? if($location == 'store')echo'class="active"' ?>>
+							<a href="store.php">Buy our Stuff</a>
+						</li>
 						</li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
@@ -37,4 +42,7 @@
 					<p class="navbar-text pull-right"> Signed in as <a href="#" class="navbar-link">Lynton Merriwether</a></p>
 				</div><!-- /.navbar-collapse -->
 			</div>
-		</nav>
+		</div>
+		<pre class="container">
+	  	[{"url":"index.php","section":"home","title":"Home"},{"url":"links.php","section":"links","title":"Links"},{"url":"contact.php","section":"contact","title":"Contact Us"},{"url":"store.php","section":"store","title":"Buy our stuff"}]  		
+	  	</pre>

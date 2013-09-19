@@ -5,9 +5,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+		<style type="text/css">
+    		body { padding-top: 70px; }
+    	</style>
 	</head>
 	<body>
-		<? include('_nav.php'); ?>
+		<? include('nav.php'); ?>
 		<div class="container">
 			<div class="jumbotron">
 				<h1>Hello World!</h1>
@@ -53,10 +56,11 @@
 		</div>
 		<script src="http://code.jquery.com/jquery.js"></script>
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-		<script type="text/javascript">
-			$(function(){
-				$(".home").addClass("active");
-				})
-		</script>
+		<script src="Scripts/main.js"></script>
+    	<script type="text/javascript">
+    	$(function(){
+    		$(".nav .home").addClass("active");
+    	});
+
 	</body>
 </html>
