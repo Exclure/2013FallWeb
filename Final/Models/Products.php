@@ -4,7 +4,7 @@ class Users{
 	{
 		$ret = array();
 		$conn = GetConnection();
-		$result = $conn->query('SELECT * FROM FALL2013_User');
+		$result = $conn->query('SELECT * FROM FALL2013_Products');
 		while ($rs = $result->fetch_assoc())
 		{
 			$ret[] = $rs;

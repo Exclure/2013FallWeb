@@ -1,7 +1,7 @@
 <?php
 include_once'../../inc/global.php';
 
-$model = Users::Get();
+$model = Orders::Get();
 $view = 'list.php';
 
 include '../shared/Layout.php';
