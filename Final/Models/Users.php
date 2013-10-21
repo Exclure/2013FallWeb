@@ -1,15 +1,20 @@
 <?php
-class Users{
-	static public function get()
+
+class Users 
+{
+	
+	static public function Get($id=null)
 	{
-		$ret = array();
-		$conn = GetConnection();
-		$result = $conn->query('SELECT * FROM FALL2013_User');
-		while ($rs = $result->fetch_assoc())
+		if(isset($id))
 		{
-			$ret[] = $rs;
+			return fetch_one("SELECT * FROM Fall2013_Users WHERE id=$id");
+	}
+		
+		else
+		{
+			return fetch_all('SELECT * FROM Fall2013_Users');
 		}
-		$conn->close();
-		return $ret;
+	
+	
 	}
 }

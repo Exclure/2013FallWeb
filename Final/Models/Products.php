@@ -1,5 +1,5 @@
 <?php
-class Users{
+class Products{
 	static public function get()
 	{
 		$ret = array();
